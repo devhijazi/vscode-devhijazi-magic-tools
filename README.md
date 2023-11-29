@@ -83,7 +83,7 @@ For frontend
 
 ### Thunder Client
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/java-support.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/thunder.png" alt="vscode-icons" width="60%" />
 
 Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code with
 simple and clean design.
