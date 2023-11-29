@@ -1,13 +1,13 @@
 {
   "name": "vscode-devhijazi-magic-tools",
   "version": "0.1.1",
-  "publisher": "DevHijazi",
+  "publisher": "vscode-devhijazi-magic-tools",
   "displayName": "Magic Tools by DevHijaZi",
   "description": "Supercharge your Visual Studio Code experience with vscode-devhijazi-magic-tools",
   "author": {
     "name": "Gabriel Hijazi"
   },
-  "icon": "images/icon/logo.png",
+  "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#09131b",
     "theme": "dark"
