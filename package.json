@@ -24,6 +24,7 @@
     "omthemes.omthemes",
     "zxh404.vscode-proto3",
     "ritwickdey.LiveServer",
+    "ecmel.vscode-html-css",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "publisher.extensionName",
@@ -32,6 +33,7 @@
     "formulahendry.code-runner",
     "ms-azuretools.vscode-docker",
     "apollographql.vscode-apollo",
+    "rangav.vscode-thunder-client",
     "aeschli.vscode-css-formatter",
     "VisualStudioExptTeam.vscodeintellicode",
     "styled-components.vscode-styled-components"
