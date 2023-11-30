@@ -4,6 +4,13 @@ Thanks for checking out my VS Code Magic Tools extension pack.
 
 ## Included Extensions
 
+### News
+Now it is also possible to automatically configure the settings.json file with the pre-customized extensions provided by the author.
+### Recently Added
+ - Code Spell Checker
+ - Autopep8 for Python
+ - Live Share
+
 ### Material Icon Theme
 
 <img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/material-icon-theme.png" alt="vscode-icons" width="60%" />
@@ -99,6 +106,24 @@ GraphQL has the potential to create incredible developer experiences, thanks to 
 <img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/code-runner.png" alt="vscode-icons" width="60%" />
 
 Run code snippet or code file for multiple languages: C, C++, Java, JavaScript, PHP, Python, Perl, Perl 6, Ruby, Go, Lua, Groovy, PowerShell, BAT/CMD, BASH/SH, F# Script, F# (.NET Core), C# Script, C# (.NET Core), VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml Script, R, AppleScript, Elixir, Visual Basic .NET, Clojure, Haxe, Objective-C, Rust, Racket, Scheme, AutoHotkey, AutoIt, Kotlin, Dart, Free Pascal, Haskell, Nim, D, Lisp, Kit, V, SCSS, Sass, CUDA, Less, Fortran, Ring, Standard ML, Zig, Mojo, and custom command
+
+### Live Share
+
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/liveshare.png" alt="vscode-icons" width="60%" />
+
+Real-time collaborative development from the comfort of your favorite tools
+
+### Autopep8
+
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/autopep.png" alt="vscode-icons" width="60%" />
+
+Formatting support for python files using the autopep8 formatter
+
+### Code Spell Checker
+
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/codespeel.png" alt="vscode-icons" width="60%" />
+
+Spelling checker for source code
 
 ## Issues & Suggestions
 
