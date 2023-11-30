@@ -1,13 +1,18 @@
 {
   "name": "vscode-devhijazi-magic-tools",
-  "version": "0.1.1",
   "publisher": "vscode-devhijazi-magic-tools",
   "displayName": "Magic Tools by DevHijaZi",
   "description": "Supercharge your Visual Studio Code experience with vscode-devhijazi-magic-tools",
+  "version": "0.1.2",
+  "main": "./out/extension.js",
+  "icon": "images/logo.png",
   "author": {
     "name": "Gabriel Hijazi"
   },
-  "icon": "images/logo.png",
+  "homepage": "https://github.com/devhijazi/vscode-devhijazi-magic-tools.git",
+  "repository": {
+    "url": "https://github.com/devhijazi/vscode-devhijazi-magic-tools.git"
+  },
   "galleryBanner": {
     "color": "#09131b",
     "theme": "dark"
@@ -18,10 +23,38 @@
   "categories": [
     "Extension Packs"
   ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-devhijazi-magic-tools.activate",
+        "title": "Activate Magic Tools Config"
+      },
+      {
+        "command": "vscode-devhijazi-magic-tools.deactivate",
+        "title": "Deactivate Magic Tools Config"
+      },
+      {
+        "command": "vscode-devhijazi-magic-tools.reset",
+        "title": "Reset Magic Tools Config"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "extensionPack": [
     "redhat.java",
     "ms-python.python",
     "omthemes.omthemes",
+    "ms-python.autopep8",
     "zxh404.vscode-proto3",
     "ritwickdey.LiveServer",
     "ecmel.vscode-html-css",
@@ -31,11 +64,34 @@
     "EditorConfig.EditorConfig",
     "PKief.material-icon-theme",
     "formulahendry.code-runner",
+    "ms-vsliveshare.vsliveshare",
     "ms-azuretools.vscode-docker",
     "apollographql.vscode-apollo",
     "rangav.vscode-thunder-client",
     "aeschli.vscode-css-formatter",
+    "streetsidesoftware.code-spell-checker",
     "VisualStudioExptTeam.vscodeintellicode",
     "styled-components.vscode-styled-components"
-  ]
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.55.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "vscode-test": "^1.5.0",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "@hitechline/eslint-config": "^0.2.1",
+    "prettier": "2.3.2",
+    "@typescript-eslint/eslint-plugin": "4.33.0",
+    "@typescript-eslint/parser": "4.33.0",
+    "esbuild": "^0.17.17",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "2.7.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "3.4.1",
+    "typescript": "^4.1.3"
+  }
 }
