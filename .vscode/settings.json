@@ -1,0 +1,211 @@
+{
+  //-------EXTENSIONS------//
+  "extensions.ignoreRecommendations": true,
+  "workbench.iconTheme": "material-icon-theme",
+
+  //-------WINDOW------//
+  "window.restoreWindows": "none",
+  "window.newWindowDimensions": "default",
+
+  //-------TERMINAL------//
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+
+  //-------FILE------//
+  "files.eol": "\n",
+ 
+
+  //-------FILE ASSOCIATION------//
+  "files.associations": {
+    ".babelrc": "json",
+    ".prettierrc": "json",
+    ".sequelizerc": "javascript"
+  },
+
+  //-------EDITOR------//
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.renderWhitespace": "none",
+  "editor.suggestSelection": "first",
+  "terminal.integrated.fontSize": 14,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.tabs.location": "left",
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.detectIndentation": false,
+  "editor.trimAutoWhitespace": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // ESLint configuration
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Prettier
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "all",
+  "prettier.quoteProps": "consistent",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Java Extensions
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  // Go Extensions
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "go.formatTool": "gofmt",
+
+  // XML
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+
+  // TypeScript Extensions
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+
+  // JavaScript Extensions
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  //-------GIT------//
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  //-------Others------//
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Material Icon Theme
+  "material-icon-theme.folders.associations": {
+    "_shared": "shared",
+    "contexts": "components",
+    "domain": "class",
+    "dtos": "typescript",
+    "entities": "class",
+    "eslint-config": "tools",
+    "fakes": "mock",
+    "grpc": "pipe",
+    "http": "container",
+    "implementations": "core",
+    "infra": "app",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "migrations": "tools",
+    "modules": "components",
+    "protos": "pipe",
+    "providers": "include",
+    "repositories": "mappings",
+    "schemas": "class",
+    "associations": "class",
+    "subscribers": "messages",
+    "typeorm": "database",
+    "useCases": "controller",
+    "resolvers": "controller",
+    "webscokets": "pipe",
+    "main": "app",
+    "dashboard": "tools",
+    "store": "database",
+    "interfaces": "typescript",
+    "types": "typescript",
+    "redux": "redux-actions",
+    "application": "app",
+    "applications": "app",
+    "args": "graphql",
+    "inputs": "graphql"
+  },
+  "material-icon-theme.files.associations": {
+    "*.controller.ts": "nest-controller",
+    "*.controller.js": "nest-controller",
+    "*.module.ts": "nest-module",
+    "*.module.js": "nest-module",
+    "*.service.ts": "nest-service",
+    "*.service.js": "nest-service",
+    "*.middleware.ts": "nest-middleware",
+    "*.middleware.js": "nest-middleware",
+    "*.filter.ts": "nest-filter",
+    "*.filter.js": "nest-filter",
+    "*.pipe.ts": "nest-pipe",
+    "*.pipe.js": "nest-pipe",
+    "*.gateway.ts": "nest-gateway",
+    "*.gateway.js": "nest-gateway",
+    "*.decorator.ts": "nest-decorator",
+    "*.decorator.js": "nest-decorator",
+    "*.guard.ts": "nest-guard",
+    "*.guard.js": "nest-guard",
+    "*.resolver.ts": "graphql",
+    "*.resolver.js": "graphql",
+    "*.input.ts": "graphql",
+    "*.input.js": "graphql",
+    "*.schema.ts": "graphql",
+    "*.schema.js": "graphql",
+    "*.args.ts": "graphql",
+    "*.args.js": "graphql"
+  },
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "redhat.telemetry.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  "cSpell.words": [
+    "devhijazi"
+  ]
+}
